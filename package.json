@@ -1,0 +1,40 @@
+{
+  "name": "comments-app",
+  "description": "Comments application with persistence layer backed by Google auth",
+  "version": "0.0.0",
+  "author": "Steve King <steve@mydev.co>",
+  "license": "MIT",
+  "repository": "git://github.com/steveukx/mydev.comments",
+  "main": "server/index.js",
+  "dependencies": {
+    "commands": "0.0.7",
+    "dmod": "^0.0.3",
+    "express": "~3.4.0",
+    "gauth": "0.0.1",
+    "hogan-middleware": "0.0.1",
+    "less-middleware": "^1.0.3",
+    "passport": "^0.2.0",
+    "passport-facebook": "^1.0.3",
+    "passport-google-oauth": "^0.1.5",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.2",
+    "properties-reader": "0.0.5",
+    "readdir": "0.0.13",
+    "session-middleware": "~1.0.2"
+  },
+  "devDependencies": {
+    "unit-test": "*",
+    "grunt": "~0.4.1",
+    "grunt-release-steps": "~0.3.7",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-git": "git+https://github.com/steveukx/grunt-git",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-less": "^0.11.3",
+    "simple-git": "^0.8.0"
+  },
+  "scripts": {
+    "start": "node src/server/index"
+  }
+}

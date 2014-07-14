@@ -1,0 +1,9 @@
+{
+    "script": "src/server/index.js",
+    "args": [
+        "-port", "9873",
+        "-base", "http://comments.mydev.co/user/login",
+        "-salt", "something-original-here"
+    ],
+    "restart": true
+}
